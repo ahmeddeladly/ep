@@ -1,0 +1,11 @@
+*.pyc
+*.npz
+*.npz.gz
+
+# Compiled stan model (pickle files)
+*.pkl
+
+# Compiled files for Cython module util
+*.so
+cython_util.c
+build/*
