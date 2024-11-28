@@ -25,11 +25,6 @@ mpl.use("TkAgg")
 import matplotlib.pyplot as plt
 
 
-# Save EP iteration data
-def save_EP_data(p_mean, p_var):
-    asdfa = 1
-
-
 def make_1d_clutter_data(
     n_observations: int,
     clutter_var: float,
